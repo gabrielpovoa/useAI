@@ -8,9 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'home-banner': "url('/bg-home-evo-banner.jpg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        orange: '#FFC44C',
+        darkBlue: '#212733',
+        white: '#EEF0F2'
       },
     },
   },
